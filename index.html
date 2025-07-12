@@ -283,7 +283,7 @@
                             <a class="btn" href="#" id="link21">
                   <img src="./skin/icon6.png">
                   <span>
-                    点击打开开奖网
+                    进入168开奖网
                       
                   </span>
                 </a>
@@ -307,18 +307,16 @@
                             </div>
                         </view>
                     </div>
-                    <script>
-                        const link21 = document.getElementById('link21');
+                     <script>
                         const aaa21 = document.getElementById('aaa21');
-                        link21.addEventListener('click', function(event) {
-                            event.preventDefault();
-                            aaa21.style.display = 'block';
-                        });
-                        const closeButton21 = document.getElementById('guanbi21');
-                        const content21 = document.getElementById('aaa21');
-                        closeButton21.addEventListener('click', function() {
-                            content21.style.display = 'none';
-                        });
+                        const link21 = document.getElementById('link21');
+                        if (link21) {
+                            link21.addEventListener('click', function(event) {
+                                event.preventDefault();
+                                // 跳转到百度
+                                window.location.href = 'https://1689437.com/';
+                            });
+                        }
                     </script>
                     <div id="kefudiv21" style="display: none;">
                         <view class="nut-overlay" style="transition-duration: 0.3s; z-index: 2008;"></view>
